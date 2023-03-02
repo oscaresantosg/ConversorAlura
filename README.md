@@ -8,6 +8,7 @@ En esta oportunidad, se solicitó crear un conversor de divisas utilizando el le
 
 
 Demostración
+
 Funcionamiento
 Al iniciar la aplicación se da la opción de elegir entre el conversor de divisas o el conversor de temperatura, en este caso se utilizará el conversor de divisas
 
