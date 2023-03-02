@@ -8,7 +8,7 @@ public class ConvertirMonedas {
 	
 	public static String EliminarNotaciónCientifica(double Número) {
 
-	    return new DecimalFormat("#.####################################").format(Número);
+	    return new DecimalFormat("#.##############################").format(Número);
 
 	   }
 	

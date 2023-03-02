@@ -13,8 +13,6 @@ public class Principal {
 
 	public void menu() {
 
-		// while(seguir==false) {
-
 		do {
 
 			String opciones = JOptionPane.showInputDialog(null, "Seleccione una opción de conversión", "Menú", JOptionPane.PLAIN_MESSAGE,
@@ -36,6 +34,11 @@ public class Principal {
 					menu();
 				} else {
 					JOptionPane.showMessageDialog(null, "Programa finalizado.!");
+
+				}
+				if (JOptionPane.CANCEL_OPTION == respuesta) {
+					JOptionPane.showMessageDialog(null, "HASTA LUEGO ");
+				} else {
 
 				}
 				break;
@@ -62,12 +65,9 @@ public class Principal {
 
 	}
 
-//}
-
 	public static void main(String[] args) {
 
 		Principal main = new Principal();
 		main.menu();
-
 	}
 }
